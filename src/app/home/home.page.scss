@@ -1,0 +1,85 @@
+
+.header {
+    color:#fff; 
+    padding: 40px;
+    background-color: #1c4fb2;
+    .list-inline-item {
+        width: 30px;
+        height: 2px;
+        background-color: #8aabdd;
+        border-radius: 4px;
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: .4rem;
+    }
+    .list-inline-item.active {
+        background-color: #fb0;
+    }
+}
+main{
+	background-color:#fff;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    min-height: calc(100vh - 195px);
+    margin-top: -40px;
+
+    .steps-info {
+        padding: 20px 40px;
+        .step-number{
+            color: #7e8594;
+        }
+        .step-title{
+            font-size:22px;
+            font-weight:bold;
+        }
+    }
+
+    .big-div {
+        
+        height: 200px;
+        position:relative;
+        margin:5px 5px 10px;
+        
+    }
+
+    .small-div {
+        
+        height: 100px;
+        position:relative;
+        margin:5px 5px 10px;
+        
+    }
+    .slider {
+        .big-div {
+            img {
+                width:100%;
+                height:100%;
+                border-radius: 6px !important;
+            }
+        }
+        .small-div {
+            img {
+                width:100%;
+                height:100%;
+                border-radius: 6px !important;
+            }
+        }
+        .img-tag {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            font-size: 20px;
+            color: 
+            #fff;
+        }
+    }
+        
+    
+
+    .btn {
+        color:#fff;
+        background-color: #ffbb00;
+        padding: 20px;
+        margin-top:80px;
+    }
+}
